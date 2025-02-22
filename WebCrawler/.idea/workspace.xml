@@ -5,23 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc775b94-10c3-46fd-9cdb-c353de6442e2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../SearchEngine/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../SearchEngine/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Crawler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DatabaseConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Indexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SearchEngine/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SearchEngine/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SearchEngine/src/main/java/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SearchEngine/src/main/java/DatabaseConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SearchEngine/src/main/java/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SearchEngine/src/main/java/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SearchEngine/src/main/java/SearchResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SearchEngine/src/main/java/SearchResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SearchEngine/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SearchEngine/src/main/webapp/search.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SearchEngine/src/main/webapp/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchEngine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SearchEngine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchEngine/src/main/java/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SearchEngine/src/main/java/com/engine/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchEngine/src/main/java/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SearchEngine/src/main/java/com/engine/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SearchEngine/src/main/java/SearchResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SearchEngine/src/main/java/com/engine/SearchResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../SearchEngine/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../SearchEngine/src/main/webapp/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asg/Crawler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asg/DatabaseConnection.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/asg/Indexer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TestJDBC/src/main/java/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TestJDBC/src/main/java/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +94,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1740231871340</updated>
-      <workItem from="1740231872400" duration="2459000" />
+      <workItem from="1740231872400" duration="4044000" />
     </task>
     <servers />
   </component>

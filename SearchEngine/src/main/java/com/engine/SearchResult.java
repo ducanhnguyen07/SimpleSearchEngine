@@ -1,3 +1,5 @@
+package com.engine;
+
 public class SearchResult {
     private String title;
     private String link;

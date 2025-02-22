@@ -1,3 +1,5 @@
+package com.engine;
+
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -24,12 +26,11 @@ public class Search extends HttpServlet {
                         rs.getString("pageTitle"), rs.getString("pageLink"));
                 listWebPage.add(sr);
             }
-            for(SearchResult sr : listWebPage) {
-                System.out.println(sr.getTitle() + " " + sr.getLink() + "\n");
-            }
+            request.setAttribute("listWebPage", listWebPage);
+            request.getRequestDispatcher("/search.jsp").forward(request, response);
             response.setContentType("text/html");
             PrintWriter out = response.getWriter();
-        } catch (SQLException | IOException | ClassNotFoundException e) {
+        } catch (SQLException | IOException | ClassNotFoundException | ServletException e) {
             e.printStackTrace();
         }
 
