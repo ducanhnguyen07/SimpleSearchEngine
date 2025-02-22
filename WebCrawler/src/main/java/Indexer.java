@@ -1,5 +1,3 @@
-package com.asg;
-
 import org.jsoup.nodes.Document;
 
 import java.sql.Connection;

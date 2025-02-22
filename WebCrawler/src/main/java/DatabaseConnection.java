@@ -1,5 +1,3 @@
-package com.asg;
-
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -20,6 +18,7 @@ public class DatabaseConnection {
 
     private static Connection getConnection(String username, String password, String db) throws SQLException, ClassNotFoundException {
         Class.forName("com.mysql.cj.jdbc.Driver");
+        System.out.println(System.getProperty("java.class.path"));
         Connection connection = DriverManager.getConnection("jdbc:mysql://localhost/"+db+"?user="+username+"&password="+password);
         return connection;
     }

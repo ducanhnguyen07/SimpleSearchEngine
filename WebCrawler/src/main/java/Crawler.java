@@ -1,5 +1,3 @@
-package com.asg;
-
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -46,6 +44,6 @@ public class Crawler {
 
     public static void main(String[] args) throws IOException {
         Crawler crawler = new Crawler();
-        crawler.crawlPageTextsAndLinks("https://www.tpointtech.com/", 1);
+        crawler.crawlPageTextsAndLinks("https://qldt.ptit.edu.vn/#/", 0);
     }
 }
